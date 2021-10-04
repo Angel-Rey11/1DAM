@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hardware>
+<ciclo>
+    <equipos>
+        <equipo nombre="Equipo de Angel">
+            <pieza nombre="Tarjeta gráfica">
+                <fabricante>Nvidia</fabricante>
+                <tipo>2080 Ti</tipo>
+                <precio>2500 euros</precio>
+                <caracteristicas>VRAM 8 GB</caracteristicas>
+            </pieza>
+            <pieza nombre="Placa Base">
+                <fabricante>MSI</fabricante>
+                <tipo>Waterforce Z490</tipo>
+                <precio>1000 euros</precio>
+                <caracteristicas>Puedes poner M.2 NVME</caracteristicas>
+            </pieza>
+            <pieza nombre="Procesador">
+                <fabricante>AMD</fabricante>
+                <tipo>AMD Ryzen 9 3900x</tipo>
+                <precio>800 euros</precio>
+                <caracteristicas>16 nuclelo 8 hilos</caracteristicas>
+            </pieza>
+            <pieza nombre="Memoria RAM">
+                <fabricante>Corsair</fabricante>
+                <tipo>DDR4 3666 MHZ</tipo>
+                <precio>100 euros</precio>
+                <caracteristicas>3666 MHZ con RGB</caracteristicas>
+            </pieza>
+        </equipo>
+    </equipos>
+</ciclo>

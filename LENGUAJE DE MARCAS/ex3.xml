@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libro>
+<ciclo>
+    <recetas>
+        <receta nombre="Pizza">
+            <ingrediente nombre="Queso">
+                <paso>Echar medio kilo de queso a la masa</paso>
+            </ingrediente>
+            <ingrediente nombre="Oregano">
+                <paso>Echar oregano para darle más sabor a la pizza</paso>
+                <ingrediente nombre="Jamon">
+                    <paso>Picar Jamon en trocitos y esparcirlo bien por toda la masa</paso>
+                </ingrediente>
+                <ingrediente nombre="Bacon">
+                    <paso>Echar un paquete de bacon y repartir bien encima del jamon</paso>
+                </ingrediente>
+                <ingrediente nombre="Queso rallado">
+                    <paso>Por ultimo, echar queso rallado para terminarla</paso>
+                </ingrediente>
+            </ingrediente>
+        </receta>
+        <receta nombre="Spaguettis a la carbonara">
+            <ingrediente nombre="500 gramos de spaguettis">
+                <paso>Echar en agua 500 gramos de spaguettis</paso>
+            </ingrediente> 
+            <ingrediente nombre="Queso">
+                <paso>Echar tres puñados de queso a la olla</paso>
+            </ingrediente>
+            <ingrediente nombre="Cebolla">
+                <paso>Cortar una cebolla y echarla a la olla con el queso</paso>
+            </ingrediente>
+            <ingrediente nombre="Bacon">
+                <paso>Echar el bacon a la olla para terminar los spaguettis</paso>
+            </ingrediente>
+        </receta>
+    </recetas>
+</ciclo>

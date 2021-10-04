@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE horario>
+<ciclo>
+    <horarios>
+        <horario nombre="Horario semanal">
+            <dia nombre="Lunes">
+                <hora nombre="8:30-9:30">
+                    <asignatura>Lenguaje de marcas</asignatura>
+                    <profesor>Miguel</profesor>
+                    <aula>1</aula>
+                </hora>
+                <hora nombre="9:30-10:30">
+                    <asignatura>Programación</asignatura>
+                    <profesor>Mari Carmen</profesor>
+                    <aula>1</aula>
+                </hora>
+                <hora nombre="10:30-11:30">
+                    <asignatura>Sistemas Informáticos</asignatura>
+                    <profesor>Antonio</profesor>
+                    <aula>1</aula>
+                </hora>
+                <hora nombre="12:00-14:00">
+                    <asignatura>Entornos de desarrollo</asignatura>
+                    <profesor>Miguel</profesor>
+                    <aula>1</aula>
+                </hora>
+                <hora nombre="14:00-15:00">
+                    <asignatura>Bases de datos</asignatura>
+                    <profesor>Manolo</profesor>
+                    <aula>1</aula>
+                </hora>
+            </dia>
+
+        </horario>
+      
+    </horarios>
+</ciclo>

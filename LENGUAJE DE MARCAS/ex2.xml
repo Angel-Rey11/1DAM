@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ruta>
+<ciclo>
+    <rutas>
+        <ruta nombre="Ruta Mediterranea">
+            <paradas nombre="Parada Almeria">
+                <horario>11:00</horario>
+            </paradas>
+            <paradas nombre="Parada Malaga">
+                <horario>13:00</horario>
+            </paradas>
+            <paradas nombre="Parada Cadiz">
+                <horario>16:00</horario>
+            </paradas>
+            <paradas nombre="Parada Huelva">
+                <horario>18:00</horario>
+            </paradas>
+        </ruta>
+    </rutas>
+</ciclo>

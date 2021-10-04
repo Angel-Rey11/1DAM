@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cartelera>
+<ciclo>
+    <peliculas>
+        <pelicula nombre="Spiderman">
+            <director>Sam Raimi</director>
+            <protagonista>Tom Holland</protagonista>
+            <resumen>La película se centra en el genio adolescente marginado Peter Parker, quien desarrolla habilidades sobrehumanas parecidas a las de una araña después de ser mordido por una araña genéticamente alterada.</resumen>
+            <salas>
+                <sala nombre="1">
+                    <sesion>17:00</sesion>
+                </sala>
+                <sala nombre="2">
+                    <sesion>18:30</sesion>
+                </sala>
+                <sala nombre="3">
+                    <sesion>21:00</sesion>
+                </sala>
+            </salas>
+        </pelicula>
+        <pelicula nombre="End game">
+            <director>Joe Russo</director>
+            <protagonista>Robert Downey Jr</protagonista>
+            <resumen>Iron Man cae al suelo tras ver desaparecer a Thanos y salvar el mundo. Rhody, Peter Parker y Pepper Potts se despiden del genio, millonario, playboy, filántropo del MCU. </resumen>
+            <salas>
+                <sala nombre="4">
+                    <sesion>12:30</sesion>
+                </sala>
+                <sala nombre="5">
+                    <sesion>17:30</sesion>
+                </sala>
+                <sala nombre="6">
+                    <sesion>21:30</sesion>
+                </sala>
+            </salas>
+        </pelicula>
+        <pelicula nombre="Karate Kid">
+            <director>Jonh Avidsen</director>
+            <protagonista>Jaden Smith</protagonista>
+            <resumen>Cuenta la historia de Dre Parker (Jaden Smith) un chaval de doce años que podía haber sido el chico más popular de Detroit pero por el trabajo de su madre (Taraji P. Henson) tendrá que mudarse a China. ... Dre sólo sabe un poco de kárate y en la tierra del kung fu, Cheng fácilmente tumba al "kárate kid" en el suelo.</resumen>
+            <salas>
+                <sala nombre="7">
+                    <horario>16:30</horario>
+                </sala>
+                <sala nombre="8">
+                    <horario>19:00</horario>
+                </sala>
+                <sala nombre="9">
+                    <horario>22:00</horario>
+                </sala>
+            </salas>
+        </pelicula>
+    </peliculas>
+</ciclo>

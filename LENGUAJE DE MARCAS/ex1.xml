@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE colegio>
+<ciclo>
+    <asignaturas>
+        <asignatura nombre="Entornos de desarrollo">
+            <profesor>Miguel</profesor>
+            <alumnado>
+                <alumno>Angel</alumno>
+                <alumno>Benito</alumno>
+                <alumno>Rafa</alumno>
+                <alumno>Pepe</alumno>
+                <alumno>David</alumno>
+                <alumno>Adrián</alumno>
+                <alumno>Raúl</alumno>
+                <alumno>Guillermo</alumno>
+                <alumno>Fernando</alumno>
+                <alumno>Mario</alumno>
+            </alumnado>
+        </asignatura>
+    </asignaturas>
+
+    <asignaturas>
+        <asignatura nombre="Bases de Datos">
+            <profesor>Manolo</profesor>
+            <alumnado>
+                <alumno>Eugenio</alumno>
+                <alumno>Rodrigo</alumno>
+                <alumno>Adama</alumno>
+                <alumno>Pedro</alumno>
+                <alumno>Iván</alumno>
+                <alumno>Alvaro</alumno>
+                <alumno>Unai</alumno>
+                <alumno>Iago</alumno>
+                <alumno>Sergio</alumno>
+                <alumno>Jordi</alumno>
+            </alumnado>
+        </asignatura>
+    </asignaturas>
+</ciclo>
