@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> </title>
+  </head>
+  <style>
+      table {
+          margin-left: 5%;
+          margin-top: 5%;
+          margin-bottom: 5%;
+      }
+      .div1 {border: 3px solid blue;
+            width: 600px;
+            padding-left: 30px;
+            padding-right: 30px;
+            margin-left: 20%;
+             width:500px ;}
+  </style>
+  <body>
+      <div class="div1">
+      <h3 style=margin-left:5%> RESERVATION REQUEST </h3>
+      <fieldset>
+          <legend style="color:blue"> <b> General Information </b></legend>
+      <table>
+        <tr>
+            <tr>
+                <td> Arrival date: </td>
+                <td> <input type="text" name="nombre" size="25"> </td>
+        </tr>
+        <tr>
+            <td> Nights: </td>
+            <td> <input type="text" name="nombre" size="25"> </td>
+        </tr>
+        <tr>
+            <td> Adults: </td>
+            <td> <select name="Adultos">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                </select> 
+            </td>
+        </tr>
+        <tr>
+            <td> Children: </td>
+            <td>  <select name="Niños">
+                <option>0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                </select> 
+            </td>
+        </tr>
+      </table>
+    </fieldset> <br>
+    <fieldset>
+        <legend style="color:blue"> <b> Preferences </b></legend>
+      <table width=358px>
+        <tr>
+            <tr>
+                <td> Room Type: </td>
+                <td> <input type="radio" name="hm" value="h"> Standard
+                    <input type="radio" name="hm" value="m"> Business
+                    <input type="radio" name="hm" value="m"> Suite
+                </td>
+        </tr>
+        <tr>
+            <td> Bed Type: </td>
+            <td><input type="radio" name="hm" value="h"> King
+                <input type="radio" name="hm" value="m"> Double Double
+                <input type="radio" name="hm" value="m"> Smoking
+            </td>
+        </tr>
+      </table>
+    </fieldset> <br>
+    <fieldset>
+        <legend style="color:blue"> <b> Contact Information </b></legend>
+      <table>
+        <tr>
+            <tr>
+                <td> Name: </td>
+                <td>  <input type="text" name="nombre" size="25">
+                </td>
+        </tr>
+        <tr>
+            <td> Email: </td>
+            <td>  <input type="text" name="nombre" size="25">
+            </td>
+        </tr>
+        <tr>
+            <td> Phone: </td>
+            <td>  <input type="text" name="nombre" size="25">
+            </td>
+        </tr>
+      </table>
+    </fieldset>
+      <form style=margin-left:5% method="get" action="prueba.php">
+        <input type="submit" value="Submit Reservation" />
+        <input type="reset" value="Clear"/>
+        </form> 
+        </div>
+  </body>
