@@ -1,0 +1,33 @@
+table, td {
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 30%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.m2 {
+    background-color: red;
+    color:white;
+}
+
+.gris {
+    text-align: center;
+    background-color: gray;
+    font-size: 25px;
+}
+
+.texto {
+    color:red;
+}
+
+.fondo {
+    padding: 30px;
+    background-color: yellow;
+}
+
+.azul {
+    background-color: blue;
+}
