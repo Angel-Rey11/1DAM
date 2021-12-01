@@ -1,0 +1,53 @@
+/* This is a comment */
+/* Style Sheet for Jaberwocky Tutorial */
+
+/* Body */
+/* etiqueta que resume todo el hmtl, en este, el body aplica un color a toda la página */
+body {background-image: url("jabber2.gif");
+      background-repeat: no-repeat;
+      background-position-x: right;
+      background-position-y: center;
+      background-color: aqua;
+      width: 35%;
+      }
+
+/* Headers */
+/* Etiqueta que es un encabezado, lo pone en un tamaño por defecto, en este le aplica un tamaño de letra y un color*/
+h1 {color:maroon;font-size:20pt; padding: 10px 10px 10px 10px; background-color: white;border-style: groove double;
+    border-color: blue;border-width: 10px; text-align:center;
+    background-image: url("backtitle.gif");}
+h2 {color:yellow; font-size:16pt}
+
+/* HR (Hard Rule = line) */
+/* pinta una linea, aquí le aplica el color que quieras a esa línea */
+hr {color:navy;
+    height:10px; }
+
+/* Paragraphs */
+/* sirven para hacer parráfos, aquí le aplica un tamaño de letra y un margen.*/
+p {font-size:12pt; margin-left: 15px}
+p.verse {color:maroon; margin-left: 60px}
+p.comment {color:blue}
+
+/* Divs */
+/* es un contenedor, para poder aplicar estilos a algo en concreto*/
+div.reference {color:slategray; margin-left: 40px;}
+
+/* Links */
+/* son pseudoselectores, al visitar una página se aplica un color ... etc*/
+a:link     {color:green}
+a:visited  {color:yellow}
+a:hover    {color:black}
+a:active   {color:blue}
+
+/* Navigation */
+
+/* Classes used by all html elements */
+
+/* Ids */
+
+/* PREGUNTAS */
+/* ¿por qué los últimos 5 párrafos se muestran de forma diferente que los 2 primeros? */
+/* porque la clase p.verse solo se aplica a los dos primeros parráfos, para que los otros se vean como los dos primeros,
+solo debemos aplicar esta clase a los demas parráfos.*/
+
