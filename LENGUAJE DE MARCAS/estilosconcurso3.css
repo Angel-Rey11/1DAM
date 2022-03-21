@@ -1,0 +1,187 @@
+body {
+    background-color: bisque;
+}
+
+#div1 {
+    background-color: black;
+}
+
+.texto {
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+.nav-pills {
+    background-color: black;
+    margin-top: 5%;
+}
+
+#div2 {
+    margin-top: 5%;
+    text-align: center;
+    padding-top: 2%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    background-color: blanchedalmond;
+}
+
+#div4 {
+    margin-top: 5%;
+}
+
+.texto3 {
+    font-family: 'Smooch Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    
+}
+
+.btn-primary {
+    width: 40%;
+    margin-left: 27%;
+}
+
+.g-3 {
+    margin-top: 5%;
+}
+
+.img-fluid {
+    width: 20%;
+    margin-left: 10%;
+}
+
+#div5 {
+    margin-top: 5%;
+   
+}
+
+#div6 {
+    margin-top: 5%;
+    background-color: black;
+}
+
+.texto4 {
+    font-family: 'Smooch Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    color: white;
+    
+}
+
+.nav-item {
+    margin-left: 8%;
+}
+
+@media screen and (min-width: 768px) {
+    .texto {
+        font-size: 50px;
+    }
+
+    .nav-item {
+        margin-left: 12%;
+        font-size: 25px;
+    }
+
+    .texto2 {
+        font-size: 50px;
+    }
+
+    .texto3 {
+        font-size: 35px;
+    }
+
+    .g-3 {
+        width: 100%;
+        margin-left: 15%;
+    }
+
+    .btn-primary {
+        margin-left: 12%;
+        font-size: 25px;
+    }
+
+    .img-fluid {
+        width: 15%;
+    }
+
+    #div5 {
+        margin-left: 10%;
+    }
+
+    .texto4 {
+        font-size: 35px;
+    }
+
+    .form-label {
+        font-size: 25px;
+    }
+
+    .form-control {
+        font-size: 25px;
+    }
+
+    .form-check-label {
+        font-size: 20px;
+    }
+
+    .form-check-input {
+        height: 20px;
+    }
+
+@media screen and (min-width: 1024px) {
+        .texto {
+            font-size: 80px;
+        }
+    
+        .nav-item {
+            margin-left: 14%;
+            font-size: 35px;
+        }
+
+        .texto2 {
+            font-size: 65px;
+        }
+
+        .texto3 {
+            font-size: 45px;
+        }
+    
+        .g-3 {
+            width: 100%;
+            margin-left: 15%;
+        }
+
+        .btn-primary {
+            margin-left: 12%;
+            font-size: 35px;
+        }
+    
+        .img-fluid {
+            width: 15%;
+        }
+
+        .form-label {
+            font-size: 35px;
+        }
+    
+        .form-control {
+            font-size: 35px;
+        }
+    
+        .form-check-label {
+            font-size: 30px;
+        }
+    
+        .form-check-input {
+            height: 30px;
+        }
+
+        .texto4 {
+            font-size: 50px;
+        }
+}
+}
+
+

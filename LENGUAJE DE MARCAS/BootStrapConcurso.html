@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="estilosconcurso.css" />
+    <title>Kundalini - Home</title>
+  </head>
+  <body>
+    <!-- Primer div responsivo para la cabecera donde esta el nombre de la página -->
+    <div id="div1" class="container-fluid">
+        <span class="texto"> KUNDALINI </span>
+      </div>
+      <!-- Barra para linkear las paginas entre ellas, te muestra donde estas y puedes ir a las otras paginas a traves de este codigo -->
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="BootStrapConcurso2.html">Masajes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="BootStrapConcurso3.html"> Sobre Nosotros </a>
+        </li>
+      </ul>
+      <!-- Imagen responsiva para que se adapte a la pantalla -->
+    <img src="https://www.yogaenred.com/wp-content/uploads/2016/12/kundalini.jpg" class="img-fluid" alt="...">
+    <!-- DIV responsivos para que se adapte a la pantalla, aqui ponemos los textos de la primera pagina -->
+    <div id="div2" class="container-fluid">
+        <span class="texto2"> <u> ¿QUE ES EL KUNDALINIIIII? </u> </span>
+    </div>
+    <!-- Lista para enumerar diferentes puntos que quiero enmarcar en la pagina -->
+    <ul class="list-unstyled">
+        <li> Qué es:
+          <ul>
+            <li>Según los especialistas en cultura hinduista, el Kundalini es una energía</li>
+            <li>Constituye el primer chakra</li>
+            <li>Suele representarse como una serpiente enroscada</li>
+          </ul>
+        </li>
+        <li>También veremos los benificios de practicar esta modalidad.</li>
+      </ul>
+      <!-- Lo mismo que arriba para diferente texto -->
+      <div id="div2" class="container-fluid">
+        <span class="texto2"> <u> BENEFICIOS DEL KUNDALINI </u> </span>
+    </div>
+    <!-- Enumeramos el texto para explicar de mejor forma y que quede mas limpio -->
+    <ul class="list-unstyled">
+        <li> Qué es:
+          <ul>
+            <li>La práctica de una kriya inicia una secuencia de cambios físicos y mentales que afectan al cuerpo, mente y espíritu al mismo tiempo.</li>
+            <li>A nivel mental aparecen muchas resistencias cuando se practica porque hay un intenso trabajo a nivel energético</li>
+            <li>Este estado meditativo te ayudará a reenfocar tus pensamientos y a concentrarte.</li>
+          </ul>
+        </li>
+      </ul>
+      <!-- DIV responsivo para un carrousel de fotos donde se iran pasando tras unos segundos -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <!-- Configuro la imagen activa y las otras dos imagenes para que pasen automatico y se muestren -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://templodelmasaje.com/wp-content/uploads/2018/05/templo-del-masaje-arturo-soria-1198x800.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://templodelmasaje.com/wp-content/uploads/2018/05/55604409b59ac87c030608d0.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://blogthinkbig.com/wp-content/uploads/sites/4/2015/09/esternon.png?resize=500%2C291" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <!-- Boton para pasar las imagenes de forma manual -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
